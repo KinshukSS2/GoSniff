@@ -1,5 +1,4 @@
-package mainpackage simple
-
+package main
 
 import (
 	"fmt"
