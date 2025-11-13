@@ -6,10 +6,10 @@ import (
 )
 
 func main() {
-	source := "The quick brown fox jumps over the lazy dog and runs away"
-	target := "The quick brown fox jumps over the lazy dog"
+	source := "Plagiarism detection is an important task in academia. This algorithm uses stopwords to find similar content between two texts. The method is based on n-gram analysis of function words."
+	target := "This algorithm uses stopwords to find similar content between texts. The method is based on n-gram analysis of function words and can detect plagiarism effectively."
 
-	detector, err := plagiarism.NewDetector()
+	detector, err := plagiarism.NewDetector(plagiarism.SetN(6))
 	if err != nil {
 		fmt.Println("Error:", err)
 		return
