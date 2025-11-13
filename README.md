@@ -6,6 +6,30 @@ A Go library for detecting plagiarism using stopwords and n-grams analysis.
 
 This library implements a plagiarism detection algorithm that uses stopwords and n-grams to identify similar content between texts. The algorithm analyzes the position and frequency of function words (stopwords) to calculate a similarity score.
 
+### Similarity Network Visualization
+
+The algorithm creates relationships between similar documents, allowing you to visualize networks of similar content and identify potential plagiarism chains.
+
+![Similarity Network](assets/similarity-network.png)
+
+*The similarity network shows how documents are connected based on their similarity scores. Each node represents a document, and edges show the similarity percentage between documents.*
+
+### The Chain of Misinformation
+
+This algorithm can track how content spreads and evolves through reproduction, paraphrasing, and falsification - helping identify the chain of misinformation.
+
+![The Chain of Misinformation](assets/chain-of-misinformation.png)
+
+*Tracking how original content transforms through reproduction, paraphrasing, new article creation, falsification, patchwork plagiarism, and ultimately misinformation.*
+
+## Use Cases
+
+- **Academic Integrity**: Detect plagiarism in student papers and research articles
+- **Content Monitoring**: Track content copying and unauthorized republishing
+- **Misinformation Tracking**: Identify how false information spreads and mutates
+- **Copyright Protection**: Find unauthorized use of copyrighted content
+- **SEO Analysis**: Detect duplicate content across websites
+
 ## Features
 
 - Fast plagiarism detection using stopwords n-gram analysis
