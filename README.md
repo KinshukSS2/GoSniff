@@ -135,3 +135,5 @@ MIT License - See LICENSE file for details
 ## Credits
 
 Algorithm inspired by research in plagiarism detection using stopwords n-grams.
+
+By:Kinshuk 
